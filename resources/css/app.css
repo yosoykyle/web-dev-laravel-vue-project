@@ -1,0 +1,64 @@
+/* Tailwind removed: simplified base CSS for Bootstrap-only project */
+/* Keep custom CSS variables and basic defaults used across the app. */
+
+:root {
+    --background: #ffffff;
+    --foreground: #0a0a0a;
+    --primary: #0b1220;
+    --radius: 0.5rem;
+}
+
+.dark {
+    --background: #ffffff;
+    --foreground: #000000;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Instrument Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: var(--background);
+    color: var(--foreground);
+}
+
+/* Helper: visually hidden text */
+.sr-only {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* === Force global white background (fix unwanted dark outer areas) === */
+html, body {
+    background: #ffffff !important;
+    color: var(--foreground) !important;
+}
+
+/* Ensure main layout containers don't show a dark background */
+.min-vh-100,
+.app-root,
+.container,
+.page-wrapper {
+    background: transparent !important;
+}
+
+/* If any components still use Bootstrap's bg-dark utility unintentionally,
+     neutralize it globally so the page remains light. This is blunt —
+     if you'd rather keep some dark sections, I can remove this and adjust
+     specific components instead. */
+.bg-dark {
+    background-color: #ffffff !important;
+}
+
