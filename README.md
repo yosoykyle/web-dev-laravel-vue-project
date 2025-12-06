@@ -6,7 +6,7 @@
 
 **Tech Bytes** demo website built to showcase the integration of **Laravel**, **Vue.js**, and **Bootstrap**.
 
-This project was developed as a _COMP 016 - Web Development_ assignment to demonstrate proficiency in full-stack web technologies.
+This project was developed as a _COMP 016 - Web Development_ assignment.
 
 ## ✨ Key Features
 
