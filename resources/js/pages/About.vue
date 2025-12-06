@@ -5,6 +5,7 @@ import { Head } from '@inertiajs/vue3';
 </script>
 
 <template>
+
     <Head title="About Us" />
 
     <div class="min-vh-100 d-flex flex-column">
@@ -72,9 +73,7 @@ import { Head } from '@inertiajs/vue3';
                 <div class="row g-4">
                     <div class="col-md-3">
                         <div class="text-center">
-                            <i
-                                class="bi bi-lightbulb display-4 text-warning mb-3"
-                            ></i>
+                            <i class="bi bi-lightbulb display-4 text-warning mb-3"></i>
                             <h5>Innovation</h5>
                             <p class="text-muted">
                                 Constantly pushing boundaries and exploring new
@@ -84,9 +83,7 @@ import { Head } from '@inertiajs/vue3';
                     </div>
                     <div class="col-md-3">
                         <div class="text-center">
-                            <i
-                                class="bi bi-star display-4 mb-3 text-primary"
-                            ></i>
+                            <i class="bi bi-star display-4 mb-3 text-primary"></i>
                             <h5>Excellence</h5>
                             <p class="text-muted">
                                 Committed to delivering the highest quality in
@@ -96,9 +93,7 @@ import { Head } from '@inertiajs/vue3';
                     </div>
                     <div class="col-md-3">
                         <div class="text-center">
-                            <i
-                                class="bi bi-people display-4 text-success mb-3"
-                            ></i>
+                            <i class="bi bi-people display-4 text-success mb-3"></i>
                             <h5>Customer Focus</h5>
                             <p class="text-muted">
                                 Your satisfaction is our top priority
@@ -107,9 +102,7 @@ import { Head } from '@inertiajs/vue3';
                     </div>
                     <div class="col-md-3">
                         <div class="text-center">
-                            <i
-                                class="bi bi-shield-check display-4 text-info mb-3"
-                            ></i>
+                            <i class="bi bi-shield-check display-4 text-info mb-3"></i>
                             <h5>Integrity</h5>
                             <p class="text-muted">
                                 Building trust through transparency and honesty
@@ -129,15 +122,13 @@ import { Head } from '@inertiajs/vue3';
                         <div class="card border-0 shadow-sm">
                             <div class="card-body p-4 text-center">
                                 <div class="mb-3">
-                                    <i
-                                        class="bi bi-person-circle display-1 text-success"
-                                    ></i>
+                                    <i class="bi bi-person-circle display-1 text-success"></i>
                                 </div>
                                 <h5 class="card-title">Kyle Fajardo Baluyot</h5>
                                 <p class="mb-2 text-muted">Developer</p>
                                 <p class="small">
-                                    Passionate about coding and creating
-                                    innovative solutions to complex problems.
+                                    Full-stack developer in progress, focused on building end-to-end solutions for
+                                    academic and client projects.
                                 </p>
                             </div>
                         </div>
