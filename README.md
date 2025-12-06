@@ -15,8 +15,7 @@ This project was developed as a _COMP 016 - Web Development_ assignment.
 - **📱 Fully Responsive**: Mobile-first design using **Bootstrap 5**, ensuring compatibility across all devices.
 - **⚓ Sticky Navigation**: Smart navbar that stays accessible while scrolling.
 - **🛍️ Product Catalog**: Interactive product grid with category filtering (Laptops, Phones, Accessories, Software).
-- **ℹ️ Informative Pages**: Dedicated 'About Us' and 'Contact Us' pages with rich layouts.
-- **🎨 Modern UI/UX**: Clean aesthetics with consistent branding and hover effects.
+- **🎨 Simple UI/UX**: Clean aesthetics with consistent branding.
 
 ## 🛠️ Technology Stack
 
