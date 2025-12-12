@@ -2,22 +2,29 @@
 
 ![Tech Bytes Banner](https://placehold.co/1200x400/212529/ffffff?text=Tech+Bytes)
 
-## 🚀 Project Overview
+**Student Details:**
+- Name: BALUYOT, KYLE FAJARDO
+- Student Number: 2023-00354-SP-0
+- Course & Section: BSIT 3-1
+- Subject: COMP 016 - Web Development
+- Activity: Laravel with Database Connection
+
+## Project Overview
 
 **Tech Bytes** demo website built to showcase the integration of **Laravel**, **Vue.js**, and **Bootstrap**.
 
 This project was developed as a _COMP 016 - Web Development_ assignment.
 
-## ✨ Key Features
+## Key Features
 
-- **⚡ SPA Navigation**: Seamless page transitions without full reloads using **Inertia.js**.
-- **🧩 Reusable Components**: Modular architecture with reusable `Navbar` and `Footer` Vue components.
-- **📱 Fully Responsive**: Mobile-first design using **Bootstrap 5**, ensuring compatibility across all devices.
-- **⚓ Sticky Navigation**: Smart navbar that stays accessible while scrolling.
-- **🛍️ Product Catalog**: Interactive product grid with category filtering (Laptops, Phones, Accessories, Software).
-- **🎨 Simple UI/UX**: Clean aesthetics with consistent branding.
+- **SPA Navigation**: Seamless page transitions without full reloads using **Inertia.js**.
+- **Reusable Components**: Modular architecture with reusable `Navbar` and `Footer` Vue components.
+- **Fully Responsive**: Mobile-first design using **Bootstrap 5**, ensuring compatibility across all devices.
+- **Sticky Navigation**: Smart navbar that stays accessible while scrolling.
+- **Product Catalog**: Interactive product grid with category filtering (Laptops, Phones, Accessories, Software).
+- **Simple UI/UX**: Clean aesthetics with consistent branding.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Backend**: [Laravel 10](https://laravel.com/) (PHP Framework)
 - **Frontend**: [Vue.js 3](https://vuejs.org/) (Composition API)
@@ -26,7 +33,7 @@ This project was developed as a _COMP 016 - Web Development_ assignment.
 - **Build Tool**: [Vite](https://vitejs.dev/)
 - **Language**: TypeScript / JavaScript
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 resources/js/
@@ -41,7 +48,7 @@ resources/js/
 └── app.ts              # Main Entry Point
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these instructions to set up the project locally.
 
@@ -94,7 +101,7 @@ Ensure you have the following installed:
     ```
     _Note: This project uses file-based sessions/cache for simplicity, so no database configuration is strictly required for the frontend demo._
 
-### 🏃‍♂️ Running the Application
+### Running the Application
 
 You need to run two terminal commands simultaneously:
 
@@ -111,28 +118,30 @@ You need to run two terminal commands simultaneously:
 
 Access the application at: `http://127.0.0.1:8000`
 
-## 📸 Screenshots
+## Screenshots
 
 ### Homepage
+
+![Homepage](./screenshots/HOME.png)
 
 The landing page features a hero section, feature highlights, and call-to-action buttons.
 
 ### Products Page
 
+![Products Page](./screenshots/PRODUCTS.png)
+
 Browse products with dynamic category filtering (Laptops, Phones, etc.).
 
 ### About Us
+
+![About Us](./screenshots/ABOUT.png)
 
 Learn about our mission, vision, core values, and meet the team.
 
 ### Contact Us
 
+![Contact Us](./screenshots/CONTACT.png)
+
 Get in touch via the contact form or find our location.
 
----
-
-## 👨‍💻 Author
-
-_2023-00354-SP-0 BALUYOT, KYLE FAJARDO_
-_BSIT 3-1_
 ---
